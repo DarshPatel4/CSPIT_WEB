@@ -1,0 +1,207 @@
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+body {
+  /*padding-top: 56px;*/
+}
+
+.nav-wrap-pad-sm{
+  padding-top:2vh; 
+}
+
+.offcanvas-collapse .navbar-nav .nav-item a{
+  color:#fff;
+  font-family: 'Roboto-Light';
+  text-transform: uppercase;
+}
+
+.offcanvas-collapse .navbar-nav .nav-item .dropdown-item{
+  color: #fff;
+  background-color: inherit;
+}
+
+.offcanvas-collapse .navbar-nav .nav-item {
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  border-top: 0.5px solid #92a5b0a6;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.offcanvas-collapse .navbar-nav .nav-item.dropdown .dropdown-toggle::after{
+    position: absolute;
+    right: 15px;
+    top: 30px;
+}
+/*
+.offcanvas-collapse .navbar-nav .nav-item.dropdown .dropdown-toggle{
+    width: min-content;
+}
+
+*/
+
+@media (max-width: 991.98px) {
+  .offcanvas-collapse {
+    position: fixed;
+    top: 0px; /* Height of navbar */
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: var(--site-color);
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    transition-property: left, visibility;
+    padding-top:2vh;
+  }
+
+  .offcanvas-collapse .dropdown-menu{
+    background-color: var(--site-color);
+    border: 0px;
+  }
+
+  .offcanvas-collapse .navbar-brand {
+    background-color: #fff;
+  }
+
+  .offcanvas-collapse .bar {
+    background-color: #fff;
+  }
+  
+
+  .offcanvas-collapse .navbar-brand a{
+    color: var(--site-color);    
+  }
+
+  .offcanvas-collapse.open {
+    left: 0;
+    visibility: visible;
+  }
+}
+
+
+.offcanvas-collapse-school .navbar-nav .nav-item a{
+  color:#fff;
+  font-family: 'Roboto-Light';
+  text-transform: uppercase;
+}
+
+.offcanvas-collapse-school .navbar-nav .nav-item .dropdown-item{
+  color: #fff;
+  background-color: inherit;
+}
+
+.offcanvas-collapse-school .navbar-nav .nav-item {
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  border-top: 0.5px solid #92a5b0a6;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.offcanvas-collapse-school {
+  position: fixed;
+  top: 0px; /* Height of navbar */
+  bottom: 0;
+  left: 100%;
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  overflow-y: auto;
+  visibility: hidden;
+  background-color: var(--site-color);
+  transition-timing-function: ease-in-out;
+  transition-duration: .3s;
+  transition-property: left, visibility;
+  padding-top:2vh;
+}
+
+.offcanvas-collapse-school .dropdown-menu{
+  background-color: var(--site-color);
+  border: 0px;
+}
+
+.offcanvas-collapse-school .navbar-brand {
+  background-color: #fff;
+}
+
+.offcanvas-collapse-school .bar {
+  background-color: #fff;
+}
+
+
+.offcanvas-collapse-school .navbar-brand a{
+  color: var(--site-color);    
+}
+
+.offcanvas-collapse-school.open {
+  left: 0;
+  visibility: visible;
+}
+
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  color: rgba(255, 255, 255, .75);
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-underline .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+  color: #6c757d;
+}
+
+.nav-underline .nav-link:hover {
+  color: #007bff;
+}
+
+.nav-underline .active {
+  font-weight: 500;
+  color: #343a40;
+}
+
+.text-white-50 { color: rgba(255, 255, 255, .5); }
+
+.bg-purple { background-color: #6f42c1; }
+
+.lh-100 { line-height: 1; }
+.lh-125 { line-height: 1.25; }
+.lh-150 { line-height: 1.5; }
+
+
+/* */
+
+@media (max-width: 991.98px) {
+    .offcanvas-collapse .navbar-nav .nav-item a.dropdown-item{
+        padding-bottom: 15px;
+        line-height: 1.5;
+        white-space: inherit!important;
+    }
+}
