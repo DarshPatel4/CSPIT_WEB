@@ -197,10 +197,10 @@ form button[type="Submit"].d-block {
     padding-left: 15px !important;
 }
 .navbar .navbar-brand img {
-    width: 80%;
+    width: 35%;
 }
 .fixed-top.navbar .navbar-brand img {
-    width: 65%;
+    width: 35%;
 }
 .ods-form textarea {
     min-height: 222px!important;
